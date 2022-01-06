@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    line-height: 26px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #000000; }
+
+/* bagian home */
+.home{
+    height: 80vh;
+    margin: auto;
+    
+}
+.home-containt{
+    margin-top: 50%;
+}
+.home-containt img{
+    margin-top: -7%;
+}
+.home-containt h1{
+    font-size: 50px;
+}
+.home-containt h3{
+    font-size: 45px;
+}
+.home-containt h5{
+    font-size: 30px;
+}
+.about-me{
+    height: 100vh;
+}
+.am-containt{
+    margin-top: 35%;
+}
+.experience{
+    height: 88vh;
+}
+.experience p{
+    margin: 0;
+    color: #6C63FF;
+}
+.experience h6{
+    color: #777777;
+}
+.card{
+    margin-top: 30px;
+}
+.project{
+    height: 88vh;
+}
+.project img{
+    margin-top: 5vh;
+}
+.project p{
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+}
+.contact{
+    margin-top: 10vh;
+    /* margin-bottom: 5vh; */
+    height: 90vh;
+}
+.icon{
+    border: 1px solid #4458dc;
+    /* background-color: red; */
+    border-radius: 100%;
+    padding: 40px;
+    margin-right: 30px;
+}
+.contact table{
+    margin-left: 5%;
+}
+/* ini button */
+.primary_btn {
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 46px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: double 2px transparent;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
+    .primary_btn span {
+        padding: 0 42px; }
+      .primary_btn.tr-bg {
+        background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+        border: 2px solid transparent;
+        color: #222222;
+        box-shadow: none; }
+        .primary_btn.tr-bg:hover {
+          background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+          border: double 2px transparent;
+          color: #ffffff;
+          box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
+      .primary_btn:hover {
+        background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+        border: 2px solid #854fee;
+        color: #222222;
+        box-shadow: none;
+        background-clip: border-box; }
+    
+@media (max-width:600px) {
+    .home{
+        /* background-color: green; */
+        margin: auto;
+        
+    }
+    .about-me{
+        height: 35vh;
+    }
+    .experience{
+        height: 100vh;
+    }
+    .project{
+        margin-top: 70vh;
+    }
+    .contact{
+        margin-top: 40vh;
+    }
+    .experience h1{
+        margin-top: 5vh;
+    }
+    .am-containt{
+        margin-top: -100px;
+    }
+    .am-containt img{
+        display: none
+    }
+    .home-containt{
+        margin-top: 20vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* background-color: red; */
+    }
+    .home-containt img{
+        display: none;
+        /* background-color: red; */
+    }
+}
